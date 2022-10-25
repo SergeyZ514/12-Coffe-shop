@@ -9,7 +9,7 @@ const coffeeFiltersAdapter = createEntityAdapter();
 
 export const fetchFilters = createAsyncThunk("filters/fetchFilters", () => {
   const { request } = useHttp();
-  return request("https://coffee-shop-23456546.herokuapp.com/filters");
+  return request("https://coffee-shop-23456546.herokuapp.com/api/filters");
 });
 
 const coffeeFiltersSlice = createSlice({

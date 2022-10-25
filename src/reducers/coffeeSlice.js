@@ -11,7 +11,7 @@ const coffeeAdapter = createEntityAdapter();
 
 export const fetchCoffee = createAsyncThunk("coffee/fetchCoffee", () => {
   const { request } = useHttp();
-  return request("https://coffee-shop-23456546.herokuapp.com/coffee");
+  return request("https://coffee-shop-23456546.herokuapp.com/api/coffee");
 });
 
 const coffeeSlice = createSlice({
