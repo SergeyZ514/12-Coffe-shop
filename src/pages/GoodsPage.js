@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { activeFilterChange } from "../reducers/coffeeFiltersSlice";
 import GoodsPageHeader from "../components/goodsPageHeader/GoodsPageHeader";
 import GoodsPageContent from "../components/goodsPageContent/GoodsPageContent";
@@ -15,6 +16,12 @@ function GoodsPage() {
 
   return (
     <>
+      <HelmetProvider>
+        <Helmet>
+          <meta name='description' content='All coffee in our store' />
+          <title>For your pleasure</title>
+        </Helmet>
+      </HelmetProvider>
       <GoodsPageHeader />
       <GoodsPageContent />
       <ItemsCatalog />

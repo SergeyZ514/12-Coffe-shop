@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import {
   fetchCoffeeItem,
   selectEntities,
@@ -37,6 +38,12 @@ function SinglePage() {
 
   return (
     <>
+      <HelmetProvider>
+        <Helmet>
+          <meta name='description' content={name} />
+          <title>{`Our coffee - ${name}`}</title>
+        </Helmet>
+      </HelmetProvider>
       <CoffeePageHeader />
       <section className='single-coffee'>
         <div className='single-coffee__row'>
