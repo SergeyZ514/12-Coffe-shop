@@ -1,0 +1,84 @@
+{
+    "coffee": [
+        {
+            "id": 1,
+            "name": "AROMISTICO Coffee",
+            "origin": "Brazil",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "6.99",
+            "weight": "1 kg",
+            "thumbnail": "http://localhost:3001/product/1/1_sm.jpg",
+            "full_img": "http://localhost:3001/product/1/1_big.jpg",
+            "isBest": true
+        },
+        {
+            "id": 2,
+            "name": "Presto Coffee Beans",
+            "origin": "Brazil",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "15.99",
+            "weight": "1 kg",
+            "thumbnail": "http://localhost:3001/product/2/2_sm.jpg",
+            "full_img": "http://localhost:3001/product/2/2_big.jpg",
+            "isBest": true
+        },
+        {
+            "id": 3,
+            "name": "Solimo Coffee Beans",
+            "origin": "Colombia",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "10.99",
+            "weight": "2 kg",
+            "thumbnail": "http://localhost:3001/product/3/3_sm.jpg",
+            "full_img": "http://localhost:3001/product/3/3_big.jpg",
+            "isBest": true
+        },
+        {
+            "id": 4,
+            "name": "San Francisco Bay Coffee",
+            "origin": "Colombia",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "18.99",
+            "weight": "908 g",
+            "thumbnail": "http://localhost:3001/product/4/4_sm.jpg",
+            "full_img": "http://localhost:3001/product/4/4_big.jpg",
+            "isBest": false
+        },
+        {
+            "id": 5,
+            "name": "Carraro Aroma Bar",
+            "origin": "Italy",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "14.99",
+            "weight": "1 kg",
+            "thumbnail": "http://localhost:3001/product/5/5_sm.jpg",
+            "full_img": "http://localhost:3001/product/5/5_big.jpg",
+            "isBest": false
+        },
+        {
+            "id": 6,
+            "name": "Lavazza Qualita Rossa",
+            "origin": "Italy",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "17.99",
+            "weight": "1 kg",
+            "thumbnail": "http://localhost:3001/product/6/6_sm.jpg",
+            "full_img": "http://localhost:3001/product/6/6_big.jpg",
+            "isBest": false
+        }
+    ],
+    "filters": [
+        {
+            "id": "Brazil",
+            "name": "Brazil"
+        },
+        {
+            "id": "Colombia",
+            "name": "Colombia"
+        },
+        {
+            "id": "Italy",
+            "name": "Italy"
+        }
+    ]
+}
