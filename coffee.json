@@ -7,8 +7,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "price": "6.99",
             "weight": "1 kg",
-            "thumbnail": "http://localhost:3001/product/1/1_sm.jpg",
-            "full_img": "http://localhost:3001/product/1/1_big.jpg",
+            "thumbnail": "https://coffee-shop-23456546.herokuapp.com/product/1/1_sm.jpg",
+            "full_img": "https://coffee-shop-23456546.herokuapp.com/product/1/1_big.jpg",
             "isBest": true
         },
         {
@@ -18,8 +18,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "price": "15.99",
             "weight": "1 kg",
-            "thumbnail": "http://localhost:3001/product/2/2_sm.jpg",
-            "full_img": "http://localhost:3001/product/2/2_big.jpg",
+            "thumbnail": "https://coffee-shop-23456546.herokuapp.com/product/2/2_sm.jpg",
+            "full_img": "https://coffee-shop-23456546.herokuapp.com/product/2/2_big.jpg",
             "isBest": true
         },
         {
@@ -29,8 +29,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "price": "10.99",
             "weight": "2 kg",
-            "thumbnail": "http://localhost:3001/product/3/3_sm.jpg",
-            "full_img": "http://localhost:3001/product/3/3_big.jpg",
+            "thumbnail": "https://coffee-shop-23456546.herokuapp.com/product/3/3_sm.jpg",
+            "full_img": "https://coffee-shop-23456546.herokuapp.com/product/3/3_big.jpg",
             "isBest": true
         },
         {
@@ -40,8 +40,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "price": "18.99",
             "weight": "908 g",
-            "thumbnail": "http://localhost:3001/product/4/4_sm.jpg",
-            "full_img": "http://localhost:3001/product/4/4_big.jpg",
+            "thumbnail": "https://coffee-shop-23456546.herokuapp.com/product/4/4_sm.jpg",
+            "full_img": "https://coffee-shop-23456546.herokuapp.com/product/4/4_big.jpg",
             "isBest": false
         },
         {
@@ -51,8 +51,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "price": "14.99",
             "weight": "1 kg",
-            "thumbnail": "http://localhost:3001/product/5/5_sm.jpg",
-            "full_img": "http://localhost:3001/product/5/5_big.jpg",
+            "thumbnail": "https://coffee-shop-23456546.herokuapp.com/product/5/5_sm.jpg",
+            "full_img": "https://coffee-shop-23456546.herokuapp.com/product/5/5_big.jpg",
             "isBest": false
         },
         {
@@ -62,22 +62,22 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "price": "17.99",
             "weight": "1 kg",
-            "thumbnail": "http://localhost:3001/product/6/6_sm.jpg",
-            "full_img": "http://localhost:3001/product/6/6_big.jpg",
+            "thumbnail": "https://coffee-shop-23456546.herokuapp.com/product/6/6_sm.jpg",
+            "full_img": "https://coffee-shop-23456546.herokuapp.com/product/6/6_big.jpg",
             "isBest": false
         }
     ],
     "filters": [
         {
-            "id": "Brazil",
+            "id": 0,
             "name": "Brazil"
         },
         {
-            "id": "Colombia",
+            "id": 1,
             "name": "Colombia"
         },
         {
-            "id": "Italy",
+            "id": 2,
             "name": "Italy"
         }
     ]

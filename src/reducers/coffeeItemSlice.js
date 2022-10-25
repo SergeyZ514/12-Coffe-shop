@@ -10,10 +10,13 @@ export const fetchCoffeeItem = createAsyncThunk(
   "coffeeItem/fetchCoffeeItem",
   async (id, { rejectWithValue, dispatch }) => {
     try {
-      const response = await fetch(`http://localhost:3001/coffee/${id}`, {
-        method: "GET",
-        headers: { "Content-Type": "application/json" },
-      });
+      const response = await fetch(
+        `https://coffee-shop-23456546.herokuapp.com/coffee/${id}`,
+        {
+          method: "GET",
+          headers: { "Content-Type": "application/json" },
+        }
+      );
 
       if (!response.ok) {
         throw response.status;
