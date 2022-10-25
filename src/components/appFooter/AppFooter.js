@@ -13,7 +13,7 @@ function AppFooter() {
           </li>
           <li>
             <NavLink
-              to='/coffee'
+              to='/coffee-page'
               style={({ isActive }) => ({
                 textDecoration: isActive ? "underline" : "",
               })}
@@ -23,7 +23,7 @@ function AppFooter() {
           </li>
           <li>
             <NavLink
-              to='/goods'
+              to='/goods-page'
               style={({ isActive }) => ({
                 textDecoration: isActive ? "underline" : "",
               })}

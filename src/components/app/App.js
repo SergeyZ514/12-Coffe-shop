@@ -20,8 +20,8 @@ function App() {
           <Suspense fallback={<Spinner />}>
             <Routes>
               <Route path='/' element={<MainPage />} />
-              <Route path='/coffee' element={<CoffePage />} />
-              <Route path='/goods' element={<GoodsPage />} />
+              <Route path='/coffee-page' element={<CoffePage />} />
+              <Route path='/goods-page' element={<GoodsPage />} />
               <Route path='/:id' element={<SinglePage />} />
               <Route path={"*"} element={<Page404 />} />
             </Routes>
